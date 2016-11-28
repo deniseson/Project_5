@@ -50,4 +50,5 @@ theBody.onclick = function gameOver() {
     alert("Game Over!");
     theBody.onclick = null;
     theLeftSide.lastChild.onclick = null;
+    theLeftSide.lastElementChild.src = "images/eastwood copy.png";
 };
